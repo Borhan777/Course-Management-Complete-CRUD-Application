@@ -12,6 +12,12 @@ public class Course {
     public String title;
     public String description;
 
+    public Course(long id, String title, String description) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+    }
+
     public Course() {
 
     }
